@@ -1,0 +1,81 @@
+---
+layout: default
+---
+
+<div class="container mt-5">
+
+    <div class="software-block">
+        <h1>Aplicaciones y repositorios</h1>
+        <div>
+            <h5>A continuación se muestra una lista repositorios públicos que recogen mis contribuciones software.</h5>
+            <br>
+        </div>
+        <div id="appsCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+
+                {% for app in site.data.software.apps %}
+                <div class="carousel-item {% if forloop.first %}active{% endif %}">
+                    <div class="d-flex justify-content-center">
+                        <div class="card" style="width: 18rem;">
+                            <a href="{{ app.link }}" target="_blank" rel="noopener noreferrer">
+                                <img src="{{ app.cover | relative_url }}" class="card-img-top" alt="{{ app.name }}">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title"><strong>{{ app.name }}</strong></h5>
+                                    <p>{{ app.description }}</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#appsCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#appsCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </button>
+        </div>
+    </div>
+
+    <div id="games-block" class="software-block">
+        <h1>Videojuegos</h1>
+
+        <div>
+            <h5>A continuación se muestra una lista de los videojuegos que he desarrollado o participado.</h5><br>
+        </div>
+        <div id="gamesCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+
+                {% for game in site.data.software.games %}
+                <div class="carousel-item {% if forloop.first %}active{% endif %}">
+                    <div class="d-flex justify-content-center">
+                        <div class="card" style="width: 18rem;">
+                            <a href="{{ game.link }}" target="_blank" rel="noopener noreferrer">
+                                <img src="{{ game.cover | relative_url }}" class="card-img-top" alt="{{ game.title }}">
+
+                                <div class="card-body text-center">
+                                    <h5 class="card-title"><strong>{{ game.title }}</strong></h5>
+                                    <p>{{ game.sinopsis }}</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#appsCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#appsCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </button>
+        </div>
+
+    </div>
+
+</div>

@@ -777,3 +777,9 @@ table td {
 }
 
 /*# sourceMappingURL=main.css.map */
+
+.navbar .nav-link,
+.navbar .navbar-brand i {
+  font-size: 1.6rem;
+  /* Ajusta a tu gusto */
+}

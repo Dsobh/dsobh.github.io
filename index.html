@@ -2,162 +2,170 @@
 layout: default
 ---
 
-<div class="wrapper">
+<div class="container mt-5">
   <div class="home">
 
     <section class="bio-section py-5">
-      <div class="container">
-        <div class="card bio-card p-3 flex-row align-items-center">
 
-          <!-- Foto -->
-          <img src="files/imgs/Profile.jpeg" alt="Foto de perfil" class="bio-photo me-4">
+      <div class="card bio-card p-4 flex-row align-items-center">
 
-          <!-- Información -->
-          <div class="bio-info">
-            <h3 class="mb-1">David Sobrín Hidalgo</h3>
-            <p class="text-muted mb-2"><strong>Investigador Posdoctoral - Grupo de robótica</strong></p>
-            <p class="mb-0">
-              Universidad de León
-              Departamento de Ingenierías Mecánica, Informática y Aeroespacial
-              Escuela de Ingenierías Industrial, Informática y Aeroespacial
-            </p>
-          </div>
+        <!-- Foto -->
+        <img src="files/imgs/Profile.jpeg" alt="Foto de perfil" class="bio-photo me-4">
+
+        <!-- Información -->
+        <div class="bio-info">
+          <h3 class="mb-1">David Sobrín-Hidalgo</h3>
+          <p class="text-muted mb-2"><strong>Investigador Posdoctoral - <a
+                href="https://robotica.unileon.es/index.php?title=Home" target="_blank" rel="noopener noreferrer">Grupo
+                de robótica</a></strong></p>
+          <p class="mb-0">
+            <a href="https://www.unileon.es/" target="_blank" rel="noopener noreferrer">Universidad de León</a><br>
+            Departamento de Ingenierías Mecánica, Informática y Aeroespacial<br>
+            Escuela de Ingenierías Industrial, Informática y Aeroespacial<br>
+          </p>
         </div>
       </div>
-    </section>
-
-
-    <section class="education-section py-5">
-      <div class="container">
-        <h2 class="text-center mb-5">Educación</h2>
-
-        <div class="row justify-content-center g-4">
-
-          <!-- Grado -->
-          <div class="col-md-6 col-lg-4">
-            <div class="card education-card h-100 text-center">
-              <img src="files/imgs/ULE-logo.png" class="card-img-top mx-auto mt-3" alt="Universidad X"
-                style="width:80px; height:80px; object-fit:cover;">
-              <div class="card-body">
-                <h5 class="card-title">Universidad de León</h5>
-                <p class="card-text">Graduado en Ingeniería Informática</p>
-                <p class="text-muted">2014 - 2018</p>
-              </div>
-            </div>
-          </div>
-
-          <!-- Máster ciber -->
-          <div class="col-md-6 col-lg-4">
-            <div class="card education-card h-100 text-center">
-              <img src="files/imgs/ULE-logo.png" class="card-img-top mx-auto mt-3" alt="Universidad Y"
-                style="width:80px; height:80px; object-fit:cover;">
-              <div class="card-body">
-                <h5 class="card-title">Universidad de León</h5>
-                <p class="card-text">Máster Universitario en Investigación en Ciberseguridad</p>
-                <p class="text-muted">2019 - 2020</p>
-              </div>
-            </div>
-          </div>
-
-          <!-- Doctorao -->
-          <div class="col-md-6 col-lg-4">
-            <div class="card education-card h-100 text-center">
-              <img src="files/imgs/ULE-logo.png" class="card-img-top mx-auto mt-3" alt="Universidad Y"
-                style="width:80px; height:80px; object-fit:cover;">
-              <div class="card-body">
-                <h5 class="card-title">Universidad de León</h5>
-                <p class="card-text">Doctor en Producción y Computación</p>
-                <p class="text-muted">2023 - 2025</p>
-              </div>
-            </div>
-          </div>
-
-        </div>
+      <!-- Biografía extendida -->
+      <div class="bio-text mt-4">
+        <p>
+          <strong>Sobre mí</strong> - Doctor en el programa de Ingeniería de producción y computación de la Universidad
+          de León. Mis principales
+          líneas de investigación
+          se centran en la ciberseguridad y explicabilidad aplicada a sistemas autónomos (XAR), principalmente en robots
+          de servicio basados en ROS 2. Apasionado de la programación y el desarrollo de software, en concreto por la
+          Programación
+          Orientada a Objetos y el GameDev.<br>
+          Escritor de ficción en mi tiempo libre.
+        </p>
       </div>
-    </section>
-
-    <section class="profile-section py-5"></section>
-    <!-- Timeline -->
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-12 text-center">
-          <div class="section-title mb-4 pb-2">
-            <div class="position-relative">
-              <h2 class="text-center mb-5">Experiencia laboral</h2>
-            </div>
-          </div>
-        </div><!--end col-->
-      </div><!--end row-->
-
-      <div class="row">
-        <div class="col-12 mt-4 pt-2">
-          <div class="timeline-page position-relative">
-            <div class="timeline-item">
-              <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-6">
-                  <div class="duration date-label-left position-relative text-md-end">
-                    <img src="files/imgs/BotyBot.png" alt="Logo Grupo Robótica" class="timeline-icon-small">
-                    <h5 class="my-2">Grupo de robótica - Universidad de León</h5>
-                    <small class="text-muted mb-0">Oct. 2019 - Dic. 2019</small>
-                  </div>
-                </div><!--end col-->
-                <div class="col-lg-6 col-md-6 col-sm-6 mt-4 mt-sm-0">
-                  <div class="event event-description-right float-left text-start">
-                    <h6 class="title mb-1 text-capitalize">Desarrollador Python e investigador</h6>
-                    <p class="timeline-subtitle mt-3 mb-0 text-muted">Prácticas curriculares del Máster
-                      Universitario en Investigación en ciberseguridad.</p>
-                  </div>
-                </div><!--end col-->
-              </div><!--end row-->
-            </div><!--end timeline item-->
-
-            <div class="timeline-item mt-5 pt-4">
-              <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-6 order-sm-1 order-2 mt-4 mt-sm-0">
-                  <div class="event event-description-left float-left text-end">
-                    <h6 class="title mb-1 text-capitalize">Investigador predoctoral</h6>
-                    <p class="timeline-subtitle mt-3 mb-0 text-muted">Investigador en robótica y ciberseguridad.
-                      Profesor de la Universidad de León en el área de Arquitectura y Tecnología de Computadores.
-                    </p>
-                  </div>
-                </div><!--end col-->
-                <div class="col-lg-6 col-md-6 col-sm-6 order-sm-2 order-1">
-                  <div class="duration duration-right position-relative">
-                    <img src="files/imgs/BotyBot.png" alt="Logo Grupo Robótica" class="timeline-icon-small">
-                    <h5 class="my-2">Grupo de robótica - Universidad de León</h5>
-                    <small class="text-muted mb-0">Oct. 2022 - Jul. 2025</small>
-                  </div>
-                </div><!--end col-->
-              </div><!--end row-->
-            </div><!--end timeline item-->
-
-            <div class="timeline-item mt-5 pt-4">
-              <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-6 mt-4 mt-sm-0">
-                  <div class="duration date-label-left position-relative text-md-end">
-                    <img src="files/imgs/BotyBot.png" alt="Logo Grupo Robótica" class="timeline-icon-small">
-                    <h5 class="my-2">Grupo de robótica - Universidad de León.</h5>
-                    <small class="text-muted mb-0">Ago. 2025 - Actualidad</small>
-                  </div>
-                </div><!--end col-->
-                <div class="col-lg-6 col-md-6 col-sm-6 mt-4 mt-sm-0">
-                  <div class="event event-description-right float-left text-start">
-                    <h6 class="title mb-1 text-capitalize">Investigador posdoctoral</h6>
-                    <p class="timeline-subtitle mt-3 mb-0 text-muted">Investigador en robótica y ciberseguridad.
-                      Profesor de la Universidad de León en el área de Arquitectura y Tecnología de Computadores.
-                    </p>
-                  </div>
-                </div><!--end col-->
-              </div><!--end row-->
-            </div><!--end timeline item-->
-
-          </div><!--end timeline page-->
-          <!-- TIMELINE END -->
-        </div><!--end col-->
-      </div><!--end row-->
-    </div>
-    </section>
-
   </div>
+  </section>
 
+
+  <section class="education-section py-5">
+    <h2 class="text-center mb-5">Educación</h2>
+
+    <div class="row justify-content-center g-4">
+
+      <!-- Grado -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card education-card h-100 text-center">
+          <img src="files/imgs/ULE-logo.png" class="card-img-top mx-auto mt-3" alt="Universidad X"
+            style="width:80px; height:80px; object-fit:cover;">
+          <div class="card-body">
+            <h5 class="card-title">Universidad de León</h5>
+            <p class="card-text">Graduado en Ingeniería Informática</p>
+            <p class="text-muted">2014 - 2018</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Máster ciber -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card education-card h-100 text-center">
+          <img src="files/imgs/ULE-logo.png" class="card-img-top mx-auto mt-3" alt="Universidad Y"
+            style="width:80px; height:80px; object-fit:cover;">
+          <div class="card-body">
+            <h5 class="card-title">Universidad de León</h5>
+            <p class="card-text">Máster Universitario en Investigación en Ciberseguridad</p>
+            <p class="text-muted">2019 - 2020</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Doctorao -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card education-card h-100 text-center">
+          <img src="files/imgs/ULE-logo.png" class="card-img-top mx-auto mt-3" alt="Universidad Y"
+            style="width:80px; height:80px; object-fit:cover;">
+          <div class="card-body">
+            <h5 class="card-title">Universidad de León</h5>
+            <p class="card-text">Doctor en Producción y Computación</p>
+            <p class="text-muted">2023 - 2025</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="profile-section py-5"></section>
+  <!-- Timeline -->
+  <div class="row justify-content-center">
+    <div class="col-12 text-center">
+      <div class="section-title mb-4 pb-2">
+        <div class="position-relative">
+          <h2 class="text-center mb-5">Experiencia laboral</h2>
+        </div>
+      </div>
+    </div><!--end col-->
+  </div><!--end row-->
+
+  <div class="row">
+    <div class="col-12 mt-4 pt-2">
+      <div class="timeline-page position-relative">
+        <div class="timeline-item">
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-6">
+              <div class="duration date-label-left position-relative text-md-end">
+                <img src="files/imgs/BotyBot.png" alt="Logo Grupo Robótica" class="timeline-icon-small">
+                <h5 class="my-2">Grupo de robótica - Universidad de León</h5>
+                <small class="text-muted mb-0">Oct. 2019 - Dic. 2019</small>
+              </div>
+            </div><!--end col-->
+            <div class="col-lg-6 col-md-6 col-sm-6 mt-4 mt-sm-0">
+              <div class="event event-description-right float-left text-start">
+                <h6 class="title mb-1 text-capitalize">Desarrollador Python e investigador</h6>
+                <p class="timeline-subtitle mt-3 mb-0 text-muted">Prácticas curriculares del Máster
+                  Universitario en Investigación en ciberseguridad.</p>
+              </div>
+            </div><!--end col-->
+          </div><!--end row-->
+        </div><!--end timeline item-->
+
+        <div class="timeline-item mt-5 pt-4">
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-6 order-sm-1 order-2 mt-4 mt-sm-0">
+              <div class="event event-description-left float-left text-end">
+                <h6 class="title mb-1 text-capitalize">Investigador predoctoral</h6>
+                <p class="timeline-subtitle mt-3 mb-0 text-muted">Investigador en robótica y ciberseguridad.
+                  Profesor de la Universidad de León en el área de Arquitectura y Tecnología de Computadores.
+                </p>
+              </div>
+            </div><!--end col-->
+            <div class="col-lg-6 col-md-6 col-sm-6 order-sm-2 order-1">
+              <div class="duration duration-right position-relative">
+                <img src="files/imgs/BotyBot.png" alt="Logo Grupo Robótica" class="timeline-icon-small">
+                <h5 class="my-2">Grupo de robótica - Universidad de León</h5>
+                <small class="text-muted mb-0">Oct. 2022 - Jul. 2025</small>
+              </div>
+            </div><!--end col-->
+          </div><!--end row-->
+        </div><!--end timeline item-->
+
+        <div class="timeline-item mt-5 pt-4">
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-6 mt-4 mt-sm-0">
+              <div class="duration date-label-left position-relative text-md-end">
+                <img src="files/imgs/BotyBot.png" alt="Logo Grupo Robótica" class="timeline-icon-small">
+                <h5 class="my-2">Grupo de robótica - Universidad de León.</h5>
+                <small class="text-muted mb-0">Ago. 2025 - Actualidad</small>
+              </div>
+            </div><!--end col-->
+            <div class="col-lg-6 col-md-6 col-sm-6 mt-4 mt-sm-0">
+              <div class="event event-description-right float-left text-start">
+                <h6 class="title mb-1 text-capitalize">Investigador posdoctoral</h6>
+                <p class="timeline-subtitle mt-3 mb-0 text-muted">Investigador en robótica y ciberseguridad.
+                  Profesor de la Universidad de León en el área de Arquitectura y Tecnología de Computadores.
+                </p>
+              </div>
+            </div><!--end col-->
+          </div><!--end row-->
+        </div><!--end timeline item-->
+
+      </div><!--end timeline page-->
+      <!-- TIMELINE END -->
+    </div><!--end col-->
+  </div><!--end row-->
+  </section>
 </div>

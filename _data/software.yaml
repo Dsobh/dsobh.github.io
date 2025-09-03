@@ -1,0 +1,36 @@
+apps:
+  - name: "explainable_ros"
+    cover: "/files/imgs/github.png"
+    link: "https://github.com/Dsobh/explainable_ros"
+    description: "ROS 2 package for generating explanations in autonomous robots (ROS 2) based on log analysis using LLMs."
+
+  - name: "Humble-Noetic_Docker"
+    cover: "/files/imgs/github.png"
+    link: "https://github.com/Dsobh/Humble-Noetic"
+    description: "Dockerfile that allows execute Ros1 (Noetic) with Ros2 (Humble) over a Ubuntu 22 image."
+
+  - name: "awesome-explainability-literature"
+    cover: "/files/imgs/github.png"
+    link: "https://github.com/uleroboticsgroup/awesome-explainability-literature"
+    description: "A curated collection of scientific papers related to eXplainable Autonomous Robots (XAR) and eXplainability in AI (XAI)."
+
+games:
+  - title: "100 Tile Challenge"
+    cover: "/files/imgs/GamesCovers/100Tiles.png"
+    link: "https://dsobh.itch.io/100-tile-challenge"
+    sinopsis: "Can you paint 100 tiles before your oponent? Play vs CPU or vs a friend in this strategy game full of color."
+
+  - title: "Lumberjack Jack"
+    cover: "/files/imgs/GamesCovers/lumberjack.png"
+    link: "https://dsobh.itch.io/lumberjack-jack"
+    sinopsis: "Lumberjack Jack is a clone I made as a practice inspired by the Telegram game 'Lumberjack'."
+
+  - title: "No Hit Room"
+    cover: "/files/imgs/GamesCovers/NoHitRoom.png"
+    link: "https://dsobh.itch.io/no-hit-room"
+    sinopsis: "You have to dodge! If time runs out, you lose. Green gives you time. White and Red kills you. How long will you survive in the No Hit Room?"
+
+  - title: "Lost in Toxi City"
+    cover: "/files/imgs/GamesCovers/ToxicCity.png"
+    link: "https://daspien.itch.io/lost-in-toxi-city"
+    sinopsis: "Eres un niño que se ha perdido en la lúgubre Toxi City. Encuentra a tus padres recogiendo los mapas de los puntos de información repartidos por la ciudad. Top down de exploración realizado en 48h en la Z-Jam 2021."

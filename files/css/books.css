@@ -1,0 +1,14 @@
+/* Aplica margen superior entre bloques de publicaciones */
+.books-block {
+    margin-top: 50px;
+    /* separa bloques */
+}
+
+/* Opcional: estilizar los títulos */
+.books-block h1 {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #dee2e6;
+    /* línea gris clara */
+    padding-bottom: 0.5rem;
+}

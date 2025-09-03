@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<div class="container mt-5">
+    <div class="books-block">
+        <h1>Proyectos en progreso</h1>
+        <h5>Comprueba el progreso de mis proyectos literarios.</h5><br>
+        <div class="mb-5">
+            {% for project in site.data.books.projects %}
+            <div class="mb-3">
+                <h5>{{ project.title }}</h5>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: {{ project.progress }}%;"
+                        aria-valuenow="{{ project.progress }}" aria-valuemin="0" aria-valuemax="100">
+                        {{ project.progress }}%
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>

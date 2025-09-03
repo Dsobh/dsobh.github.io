@@ -1,0 +1,69 @@
+/* Aplica margen superior entre bloques de publicaciones */
+.software-block {
+    margin-top: 50px;
+    /* separa bloques */
+}
+
+/* Opcional: estilizar los títulos */
+.software-block h1 {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #dee2e6;
+    /* línea gris clara */
+    padding-bottom: 0.5rem;
+}
+
+#appsCarousel .carousel-control-prev,
+#appsCarousel .carousel-control-next {
+    width: 100px;
+    /* ancho del botón */
+    height: 100px;
+    /* altura del botón */
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 0;
+    background: rgba(0, 0, 0, 0.2);
+    /* opcional: fondo semi-transparente */
+    border-radius: 50%;
+    /* opcional: círculo */
+}
+
+#appsCarousel .carousel-control-prev-icon,
+#appsCarousel .carousel-control-next-icon {
+    width: 40px;
+    /* tamaño del icono */
+    height: 40px;
+    background-size: 100% 100%;
+}
+
+#gamesCarousel .carousel-control-prev,
+#gamesCarousel .carousel-control-next {
+    width: 100px;
+    /* ancho del botón */
+    height: 100px;
+    /* altura del botón */
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 0;
+    background: rgba(0, 0, 0, 0.2);
+    /* opcional: fondo semi-transparente */
+    border-radius: 50%;
+    /* opcional: círculo */
+}
+
+#gamesCarousel .carousel-control-prev-icon,
+#gamesCarousel .carousel-control-next-icon {
+    width: 40px;
+    /* tamaño del icono */
+    height: 40px;
+    background-size: 100% 100%;
+}
+
+#games-block {
+    margin-top: 100px;
+}
+
+body {
+    padding-top: 80px;
+    /* Ajusta según la altura de tu navbar */
+}

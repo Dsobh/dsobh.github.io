@@ -1,18 +1,13 @@
 projects:
-  - title: "Libro en progreso 1"
-    progress: 70
-  - title: "Libro en progreso 2"
-    progress: 40
-  - title: "Libro en progreso 3"
-    progress: 90
+  - title: "#ProyectoCodicia Draft 1"
+    progress: 5
+  - title: "#LuzYFuego Revisión"
+    progress: 0
+  - title: "#ProyectoVenganza Draft 2"
+    progress: 100
 
 published:
   - title: "Libro Publicado 1"
-    cover: "/assets/images/libro1.jpg"
+    cover: "/files/imgs/BooksCover/libro1.jpg"
     link: "https://example.com/libro1"
-  - title: "Libro Publicado 2"
-    cover: "/assets/images/libro2.jpg"
-    link: "https://example.com/libro2"
-  - title: "Libro Publicado 3"
-    cover: "/assets/images/libro3.jpg"
-    link: "https://example.com/libro3"
+    sinopsis: "Esto es un ejemplo"
