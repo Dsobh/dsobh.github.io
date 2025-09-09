@@ -1,6 +1,7 @@
 /* Aplica margen superior entre bloques de publicaciones */
 .software-block {
     margin-top: 50px;
+    margin-bottom: 100px;
     /* separa bloques */
 }
 
