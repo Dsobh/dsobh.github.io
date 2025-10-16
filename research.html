@@ -3,6 +3,22 @@ layout: default
 ---
 
 <div class="container mt-4">
+
+    <div class="publication-block">
+        <h1>Tesis</h1>
+        <ul class="list-group">
+            {% for post in site.data.research %}
+            {% if post.Tipo == "Tesis" %}
+            <li class="list-group-item">
+                <a><b>{{ post.Nombre }} - ({{ post.Anio }})</b></a><br>
+                <a href="{{ post.Enlace }}" target="_blank" rel="noopener noreferrer"><strong>{{ post.Cita
+                        }}</strong></a><br>
+            </li>
+            {% endif %}
+            {% endfor %}
+        </ul>
+    </div>
+    
     <div class="publication-block">
         <h1>Revista</h1>
         <ul class="list-group">
