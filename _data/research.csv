@@ -1,5 +1,5 @@
 Tipo,Anio,Nombre,Cita,Enlace
-Tesis,2025,"BULERIA, Universidad de León","Sobrín Hidalgo, D. Ciberseguridad y explicabilidad en el proceso de toma de decisiones en sistemas con capacidades autónomas. DOI:10.18002/10612/25914",https://hdl.handle.net/10612/25914 
+Preprint,2025,TESIS,"Sobrín Hidalgo, D. Ciberseguridad y explicabilidad en el proceso de toma de decisiones en sistemas con capacidades autónomas. DOI:10.18002/10612/25914",https://hdl.handle.net/10612/25914 
 Journal,2025,IEEE Access,"David Sobrín-Hidalgo, Ángel Manuel Guerrero-Higueras, and Vicente Matellán-Olivera. Generating explanations for autonomous robots: A systematic review. IEEE Access, 13:20413–20426, 2025",https://ieeexplore.ieee.org/document/10855405
 Journal,Pendiente,Logic Journal of the IGPL,"L. Fernández-Becerra, D. Sobrín-Hidalgo, M. A. González-Santamarta, Á. M. Guerrero-Higueras, F. J. Rodrı́guez-Lera,and V. Matellán. Improving accountability and explainability in robots  visual language models. Logic Journal of the IGPL, 2024through encryption, large language models, and",
 Conference,2021,CISIS,"David Sobrín-Hidalgo, Adrián Campazas Vega, Ángel Manuel Guerrero Higueras, Francisco Javier Rodrı́guez Lera, and Camino Fernández-Llamas. Systematic mapping of detection techniques for advanced persistent threats. In Computational Intelligence in Security for Information Systems Conference, pages 426–435. Springer, Cham, 2021",https://link.springer.com/chapter/10.1007/978-3-030-57805-3_40
@@ -14,3 +14,4 @@ Conference,2025,JNIC,"Francisco J Rodrı́guez Lera, Yoana Pita Lorenzo, David S
 Preprint,2024,ARXIV,"Sobrín-Hidalgo, D., González-Santamarta, M. A., Guerrero-Higueras, Á. M., Rodríguez-Lera, F. J., & Matellán-Olivera, V. (2024). Explaining autonomy: Enhancing human-robot interaction through explanation generation with large language models. arXiv preprint arXiv:2402.04206.",https://arxiv.org/abs/2402.04206
 
 Preprint,2024,ARXIV,"Sobrín-Hidalgo, D., González-Santamarta, M. Á., Guerrero-Higueras, Á. M., Rodríguez-Lera, F. J., & Matellán-Olivera, V. (2024). Enhancing robot explanation capabilities through vision-language models: a preliminary study by interpreting visual inputs for improved human-robot interaction. arXiv preprint arXiv:2404.09705.",https://arxiv.org/abs/2404.09705
+
