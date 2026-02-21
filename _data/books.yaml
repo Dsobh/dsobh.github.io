@@ -1,8 +1,10 @@
 projects:
   - title: "#ProyectoCodicia Draft 1"
     progress: 5
+  - title: "#ProyectoGaláctico Draft 1"
+    progress: 7
   - title: "#LuzYFuego Revisión"
-    progress: 0
+    progress: 40
   - title: "#ProyectoVenganza Draft 2"
     progress: 100
 
